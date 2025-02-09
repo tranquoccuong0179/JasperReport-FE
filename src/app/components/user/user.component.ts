@@ -125,6 +125,34 @@ import { User, Users } from "../../models/auth.model";
         font-size: 16px;
         color: #6b7280;
       }
+
+      .actions {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 15px;
+      }
+
+      .download-btn {
+        background-color: #10b981; /* Màu xanh lá */
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+      }
+
+      .download-btn:hover {
+        background-color: #059669; /* Màu xanh đậm hơn khi hover */
+        transform: scale(1.05);
+      }
+
+      .download-btn:active {
+        background-color: #047857;
+        transform: scale(0.95);
+      }
     `,
   ],
 })
